@@ -27,7 +27,8 @@ Hey 👋 Welcome to my profile, my name is Noé and I'm a Junior Developer from 
 
 ## Softwares
 
-| Tests | Containers | Others |
+| Tests | Containers | Tools |
 |:-----:|:----------:|:------:|
-| ![postman](https://img.shields.io/badge/postman-orange?style=for-the-badge&logo=postman&logoColor=white) | ![docker](https://img.shields.io/badge/docker-blue?style=for-the-badge&logo=docker&logoColor=white) | ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white) |
+| [![Jenkins](https://img.shields.io/badge/Jenkins-D24939?logo=jenkins&logoColor=white)](#) | [![Bitbucket Pipelines](https://img.shields.io/badge/Bitbucket_Pipelines-0052CC?logo=bitbucket&logoColor=white)](#) 
+ | ![docker](https://img.shields.io/badge/docker-blue?style=for-the-badge&logo=docker&logoColor=white) | ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) [![Blender](https://img.shields.io/badge/Blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white)](#) [![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?&style=for-the-badge&logo=Canva&logoColor=white)](#) [![Krita](https://img.shields.io/badge/Krita-203759?style=for-the-badge&logo=krita&logoColor=EEF37B)](#) |
 
