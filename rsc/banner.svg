@@ -1,0 +1,181 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Dégradés pour le haut et le bas -->
+    <linearGradient id="topGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#252540"/>
+      <stop offset="100%" stop-color="#252525"/>
+    </linearGradient>
+    <linearGradient id="bottomGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#252525"/>
+      <stop offset="100%" stop-color="#52540"/>
+    </linearGradient>
+    <!-- Définitions des clipPath pour l'effet machine à écrire -->
+    <clipPath id="clipText1">
+      <rect x="0" y="0" width="0" height="60">
+        <animate attributeName="width" dur="24s" repeatCount="indefinite"
+                 keyTimes="0;0.1;0.2;0.25;1" values="0;250;250;0;0" begin="0s" />
+      </rect>
+    </clipPath>
+    <clipPath id="clipText2">
+      <rect x="0" y="0" width="0" height="60">
+        <animate attributeName="width" dur="24s" repeatCount="indefinite"
+                 keyTimes="0;0.1;0.2;0.25;1" values="0;250;250;0;0" begin="8s" />
+      </rect>
+    </clipPath>
+    <clipPath id="clipText3">
+      <rect x="0" y="0" width="0" height="60">
+        <animate attributeName="width" dur="24s" repeatCount="indefinite"
+                 keyTimes="0;0.1;0.2;0.25;1" values="0;250;250;0;0" begin="16s" />
+      </rect>
+    </clipPath>
+  </defs>
+  
+  <style>
+    /* Animation du texte tournant */
+    @keyframes rotate {
+      0% { transform: rotate(3deg); }
+      100% { transform: rotate(-3deg); }
+    }
+    
+    /* Animations pour l'effet glitch sur le texte */
+    @keyframes glitch1 {
+      0% { transform: none; opacity: 1; }
+      7% { transform: skew(-0.5deg, -0.9deg); opacity: 0.75; }
+      10% { transform: none; opacity: 1; }
+      27% { transform: none; opacity: 1; }
+      30% { transform: skew(0.8deg, -0.1deg); opacity: 0.75; }
+      35% { transform: none; opacity: 1; }
+      52% { transform: none; opacity: 1; }
+      55% { transform: skew(-1deg, 0.2deg); opacity: 0.75; }
+      72% { transform: none; opacity: 1; }
+      75% { transform: skew(0.4deg, 1deg); opacity: 0.75; }
+      80% { transform: none; opacity: 1; }
+      100% { transform: none; opacity: 1; }
+    }
+    @keyframes glitch2 {
+      0% { transform: none; opacity: 0.25; }
+      7% { transform: translate(-2px, -3px); opacity: 0.5; }
+      10% { transform: none; opacity: 0.25; }
+      27% { transform: none; opacity: 0.25; }
+      30% { transform: translate(-5px, -2px); opacity: 0.5; }
+      35% { transform: none; opacity: 0.25; }
+      52% { transform: none; opacity: 0.25; }
+      55% { transform: translate(-5px, -1px); opacity: 0.5; }
+      72% { transform: none; opacity: 0.25; }
+      75% { transform: translate(-2px, -6px); opacity: 0.5; }
+      80% { transform: none; opacity: 0.25; }
+      100% { transform: none; opacity: 0.25; }
+    }
+    @keyframes glitch3 {
+      0% { transform: none; opacity: 0.25; }
+      7% { transform: translate(2px, 3px); opacity: 0.5; }
+      10% { transform: none; opacity: 0.25; }
+      27% { transform: none; opacity: 0.25; }
+      30% { transform: translate(5px, 2px); opacity: 0.5; }
+      35% { transform: none; opacity: 0.25; }
+      52% { transform: none; opacity: 0.25; }
+      55% { transform: translate(5px, 1px); opacity: 0.5; }
+      72% { transform: none; opacity: 0.25; }
+      75% { transform: translate(2px, 6px); opacity: 0.5; }
+      80% { transform: none; opacity: 0.25; }
+      100% { transform: none; opacity: 0.25; }
+    }
+    
+    /* Style du texte tournant */
+    .rotating-text-container {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      text-align: center;
+      color: white;
+    }
+    .rotating-text {
+      font-size: 70px;
+      letter-spacing: 7px;
+      text-transform: uppercase;
+      text-shadow: 0 1px 0 #efefef, 0 2px 0 #efefef, 0 3px 0 #efefef, 0 4px 0 #efefef, 0 12px 5px rgba(0, 0, 0, 0.1);
+      animation: rotate ease-in-out 1s infinite alternate;
+    }
+    
+    /* Style du texte typewriter et effet glitch */
+    .glitch1 { fill: white; animation: glitch1 2.5s infinite; }
+    .glitch2 { fill: #67f3da; animation: glitch2 2.5s infinite; }
+    .glitch3 { fill: #f16f6f; animation: glitch3 2.5s infinite; }
+    .typewriter-text {
+      font-family: 'Anonymous Pro', monospace;
+      font-size: 50px;
+    }
+  </style>
+  
+  <!-- Fond noir et dégradés -->
+  <rect x="0" y="0" width="1280" height="640" fill="#252525"/>
+  <rect x="0" y="0" width="1280" height="100" fill="url(#topGradient)"/>
+  <rect x="0" y="540" width="1280" height="100" fill="url(#bottomGradient)"/>
+  
+  <!-- Texte tournant (en haut) -->
+    <g transform="translate(50,100)">
+
+  <foreignObject x="0" y="50" width="1280" height="200">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="rotating-text-container">
+      <div class="rotating-text">Noé Florence<br/>not Hello</div>
+    </div>
+  </foreignObject>
+        </g>
+
+  <!-- Regroupement en ligne du texte fixe et de l'animation machine à écrire -->
+  <g transform="translate(400,450)">
+    <!-- Texte fixe avec effet glitch pour "animation :" -->
+    <g id="animation-glitch">
+      <text x="0" y="34"  class="glitch1 typewriter-text">animation :</text>
+      <text x="0" y="34" class="glitch2 typewriter-text">animation :</text>
+      <text x="0" y="34" class="glitch3 typewriter-text">animation :</text>
+    </g>
+    
+    <!-- Animation machine à écrire positionnée immédiatement après (décalée de 150px) -->
+    <g id="typewriter" transform="translate(320,0)">
+      <!-- Texte 1 avec effet glitch -->
+      <g>
+        <g clip-path="url(#clipText1)">
+          <text x="0" y="34" class="glitch1 typewriter-text">--text 1</text>
+          <text x="0" y="34" class="glitch2 typewriter-text">--text 1</text>
+          <text x="0" y="34" class="glitch3 typewriter-text">--text 1</text>
+        </g>
+        <rect x="0" y="0" width="2" height="40" fill="white">
+          <animate attributeName="x" dur="24s" repeatCount="indefinite"
+                   keyTimes="0;0.1;0.2;0.25;1" values="0;250;250;0;0" begin="0s" />
+          <animate attributeName="opacity" dur="0.5s" repeatCount="indefinite"
+                   values="1;0;1" begin="0s" />
+        </rect>
+      </g>
+      
+      <!-- Texte 2 avec effet glitch -->
+      <g>
+        <g clip-path="url(#clipText2)">
+          <text x="0" y="34" class="glitch1 typewriter-text">text 2</text>
+          <text x="0" y="34" class="glitch2 typewriter-text">text 2</text>
+          <text x="0" y="34" class="glitch3 typewriter-text">text 2</text>
+        </g>
+        <rect x="0" y="0" width="2" height="40" fill="white">
+          <animate attributeName="x" dur="24s" repeatCount="indefinite"
+                   keyTimes="0;0.1;0.2;0.25;1" values="0;250;250;0;0" begin="8s" />
+          <animate attributeName="opacity" dur="0.5s" repeatCount="indefinite"
+                   values="1;0;1" begin="8s" />
+        </rect>
+      </g>
+      
+      <!-- Texte 3 avec effet glitch -->
+      <g>
+        <g clip-path="url(#clipText3)">
+          <text x="0" y="34" class="glitch1 typewriter-text">text 3</text>
+          <text x="0" y="34" class="glitch2 typewriter-text">text 3</text>
+          <text x="0" y="34" class="glitch3 typewriter-text">text 3</text>
+        </g>
+        <rect x="0" y="0" width="2" height="40" fill="white">
+          <animate attributeName="x" dur="24s" repeatCount="indefinite"
+                   keyTimes="0;0.1;0.2;0.25;1" values="0;250;250;0;0" begin="16s" />
+          <animate attributeName="opacity" dur="0.5s" repeatCount="indefinite"
+                   values="1;0;1" begin="16s" />
+        </rect>
+        <rect x="-1" y="-1" width="4" height="45" fill="#252525"/>
+      </g>
+    </g>
+  </g>
+</svg>
