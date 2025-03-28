@@ -1,3 +1,4 @@
+![Bannière](https://raw.githubusercontent.com/NoeFBou/NoeFBou/main/rsc/banner.svg)
 # 👋 Presentation
 
 <br/>
