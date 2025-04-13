@@ -115,7 +115,7 @@
 
   <foreignObject x="0" y="50" width="1280" height="200">
     <div xmlns="http://www.w3.org/1999/xhtml" class="rotating-text-container">
-      <div class="rotating-text">Noé Florence<br/>not Hello</div>
+      <div class="rotating-text">Noé Florence<br/>junior developer</div>
     </div>
   </foreignObject>
         </g>
@@ -124,9 +124,9 @@
   <g transform="translate(400,450)">
     <!-- Texte fixe avec effet glitch pour "animation :" -->
     <g id="animation-glitch">
-      <text x="0" y="34"  class="glitch1 typewriter-text">animation :</text>
-      <text x="0" y="34" class="glitch2 typewriter-text">animation :</text>
-      <text x="0" y="34" class="glitch3 typewriter-text">animation :</text>
+      <text x="0" y="34"  class="glitch1 typewriter-text">Welcome to my</text>
+      <text x="0" y="34"  class="glitch2 typewriter-text">Welcome to my</text>
+      <text x="0" y="34"  class="glitch3 typewriter-text">Welcome to my</text>
     </g>
     
     <!-- Animation machine à écrire positionnée immédiatement après (décalée de 150px) -->
@@ -134,9 +134,9 @@
       <!-- Texte 1 avec effet glitch -->
       <g>
         <g clip-path="url(#clipText1)">
-          <text x="0" y="34" class="glitch1 typewriter-text">--text 1</text>
-          <text x="0" y="34" class="glitch2 typewriter-text">--text 1</text>
-          <text x="0" y="34" class="glitch3 typewriter-text">--text 1</text>
+          <text x="0" y="34" class="glitch1 typewriter-text">profil</text>
+          <text x="0" y="34" class="glitch2 typewriter-text">profil</text>
+          <text x="0" y="34" class="glitch3 typewriter-text">profil</text>
         </g>
         <rect x="-5" y="0" width="5" height="40" fill="white">
           <animate attributeName="x" dur="24s" repeatCount="indefinite"
@@ -149,9 +149,9 @@
       <!-- Texte 2 avec effet glitch -->
       <g>
         <g clip-path="url(#clipText2)">
-          <text x="0" y="34" class="glitch1 typewriter-text">text 2</text>
-          <text x="0" y="34" class="glitch2 typewriter-text">text 2</text>
-          <text x="0" y="34" class="glitch3 typewriter-text">text 2</text>
+          <text x="0" y="34" class="glitch1 typewriter-text">github page</text>
+          <text x="0" y="34" class="glitch2 typewriter-text">github page</text>
+          <text x="0" y="34" class="glitch3 typewriter-text">github page</text>
         </g>
         <rect x="-5" y="0" width="5" height="40" fill="white">
           <animate attributeName="x" dur="24s" repeatCount="indefinite"
@@ -164,9 +164,9 @@
       <!-- Texte 3 avec effet glitch -->
       <g>
         <g clip-path="url(#clipText3)">
-          <text x="0" y="34" class="glitch1 typewriter-text">text 3</text>
-          <text x="0" y="34" class="glitch2 typewriter-text">text 3</text>
-          <text x="0" y="34" class="glitch3 typewriter-text">text 3</text>
+          <text x="0" y="34" class="glitch1 typewriter-text">depots</text>
+          <text x="0" y="34" class="glitch2 typewriter-text">depots</text>
+          <text x="0" y="34" class="glitch3 typewriter-text">depots</text>
         </g>
         <rect x="-5" y="0" width="5" height="40" fill="white">
           <animate attributeName="x" dur="24s" repeatCount="indefinite"
