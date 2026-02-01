@@ -45,12 +45,10 @@ Below is a list of my projects. Click on the link to access each repository:
 
 | Project                                                          | Technologies Used                                   |
 |---------------------------------------------------------------|-----------------------------------------------------|
-| [TurtleBot3 project on ROS2 for exploration, AI research, and object retrieval ](https://github.com/NoeFBou/exploration_and_research_turtlebot) |  |
-| [Navigation system project for Crazyflie nanodrones on ROS2]() |  |
+| [TurtleBot3 project on ROS2 for exploration, AI research, and object retrieval ](https://github.com/NoeFBou/exploration_and_research_turtlebot) | ![ROS2](https://img.shields.io/badge/ros2-22314E?style=for-the-badge&logo=ros&logoColor=white) ![TurtleBot3](https://img.shields.io/badge/TurtleBot3-22314E?style=for-the-badge&logo=ros&logoColor=white) ![Gazebo](https://img.shields.io/badge/Gazebo-F58113?style=for-the-badge&logo=gazebo&logoColor=white) ![RViz](https://img.shields.io/badge/RViz-22314E?style=for-the-badge&logo=ros&logoColor=white) ![Crazyflie](https://img.shields.io/badge/Crazyflie-000000?style=for-the-badge&logo=bitcraze&logoColor=white) |
+| [Navigation system project for Crazyflie nanodrones on ROS2]() | ![ROS2](https://img.shields.io/badge/ros2-22314E?style=for-the-badge&logo=ros&logoColor=white) ![Gazebo](https://img.shields.io/badge/Gazebo-F58113?style=for-the-badge&logo=gazebo&logoColor=white) ![RViz](https://img.shields.io/badge/RViz-22314E?style=for-the-badge&logo=ros&logoColor=white) |
 | [Connected & Centralised Safe System Project](https://github.com/NoeFBou/Projet-OS-Embarques-pour-l-Edge-Computing) |  |
 | [3D object detection project ](https://github.com/NathanAmoussou/3d_edge_object_detection) |  |
-| [TurtleBot3 project for exploration, AI research, and object retrieval](https://github.com/NoeFBou/exploration_and_research_turtlebot) |  |
-
 | [Route optimisation project](https://github.com/NoeFBou/Projet_trajet_optimise_IoTCPS_Grp5) |  |
 | [VR Musical Web Application Project (musical-multiverse-vr)](https://github.com/doriangirard9/musical-multiverse-vr) | [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6.svg?style=for-the-badge&logo=typescript&logoColor=fff)](#) ![BabylonJS](https://img.shields.io/badge/BabylonJS-0A2F5A.svg?style=for-the-badge&logo=babylon.js&logoColor=white) |
 | [Web Game Project](https://github.com/NoeFBou/ProjetjeuWeb)          | [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6.svg?style=for-the-badge&logo=typescript&logoColor=fff)](#) [![Krita](https://img.shields.io/badge/Krita-203759.svg?style=for-the-badge&logo=krita&logoColor=EEF37B)](#) |
